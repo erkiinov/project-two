@@ -1,0 +1,22 @@
+.ProductInfo-div{
+    ul{
+        margin-left: 18px;
+        li{
+            list-style:disc;
+            color: #1F2533;
+        }
+    }
+    .grid-product-info{
+        margin-top: 35px;
+        align-items: flex-start;
+        display: grid;
+        grid-template-columns: 1fr 0.8fr;
+        gap: 65px;
+    }
+   
+}
+.RetaletPr{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}

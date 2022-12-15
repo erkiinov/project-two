@@ -1,0 +1,36 @@
+.product-info-uni{
+    width: 100%;
+
+    background: #FFFFFF;
+    border: 1px solid #EFEFEF;
+    border-radius: 12px;
+    padding: 10px 25px;
+    .div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 0;
+        border-bottom: 1px solid #EFEFEF;
+        &:last-child{
+            border: none;
+        }
+    }
+    h1{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 178.19%;
+        color: #70737C;
+    }
+    h2{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 178.19%;
+        text-align: right;
+        letter-spacing: -0.035em;
+        color: #1F2533;
+    }
+}
