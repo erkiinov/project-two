@@ -1,0 +1,51 @@
+.grid-card-uni{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    z-index: 0;
+    position: relative;
+    border-radius: 12px;
+    .position{
+        z-index: -1;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    &-title{
+        max-width: 400px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: -0.02em;
+        color: #1F2533;
+    }
+    .description{
+        max-width: 400px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 178.19%;
+        color: #70737C;
+    }
+    .time{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        .clock{
+            color: #70737C;
+        }
+        h2{
+            font-family: 'Lexend';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 178.19%;
+            color: #70737C;
+        }
+    }
+}

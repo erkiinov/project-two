@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0px;
+    width: 1110px;
+    margin: 0 auto; 
+    ul{
+        margin-left: 15px;
+    }
+    &__ul{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        
+        li{
+            cursor: pointer;
+        }
+        &-stick{
+            width: 1px;
+            height: 25px;
+            background-color: #EFEFEF;
+            &:last-child{
+                display: none;
+            }
+        }
+    }
+    &__li{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 178.19%;
+        color: #70737C;
+        transition: 0.2s;
+        &:hover{
+            color: #359740;
+        }
+    }
+    .instagram{
+        color: #70737C;
+        font-size: 22px;
+    }
+    .facebook{
+        color: #70737C;
+        font-size: 22px;
+    }
+    .search{
+        cursor: pointer;
+        font-size: 16px;
+        color: #70737C;
+        cursor: pointer;
+    }
+    .like{
+        cursor: pointer;
+        -webkit-text-stroke: 2px #359740;
+        color: transparent;
+    }
+    .cart{
+        -webkit-text-stroke: 1px #359740;
+        color: transparent;
+    }
+    &__right{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        form{
+            border: 1px solid #EFEFEF;
+            border-radius: 71px;
+            width: 285px;
+            height: 48px;
+
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            gap: 8px;
+            input{
+                padding: 2px 6px;
+                background-color: transparent;
+                border: none;
+                outline: none;
+            }
+            button{
+                background-color: transparent;
+                border: none;
+                outline: none;
+            }
+        }
+        .icons{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+    }
+}

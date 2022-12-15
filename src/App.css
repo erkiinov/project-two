@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    width: 100%;
+    box-shadow: 0px 4px 12px rgba(207, 207, 207, 0.25);
+}
+.foot{
+    width: 100%;
+    box-shadow: 0px -7px 80px rgba(189, 189, 189, 0.25);
+}
+.container-main{
+    min-height: 99vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

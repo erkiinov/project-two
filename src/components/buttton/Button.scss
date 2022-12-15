@@ -1,0 +1,25 @@
+.button-uni{
+    padding: 10px 30px;
+    border-radius: 8px;
+
+
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 178.19%;
+    letter-spacing: -0.035em;
+    color: #FFFFFF;
+    text-align: center;
+
+
+    &-display{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 25px;
+        img{
+            width: 20px;
+        }
+    }
+}

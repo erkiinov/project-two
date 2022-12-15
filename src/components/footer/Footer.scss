@@ -1,0 +1,38 @@
+.footer{
+    width: 1110px;
+    margin: 0 auto;
+    padding: 40px 0 30px;
+    &__top{
+        display: flex;
+        align-items: center;
+        gap: 75px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #359740;
+        .navbar__ul{
+            gap: 30px;
+        }
+    }
+    &__bottom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 0 0;
+        .icon{
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            i{
+                font-size: 20px;
+                color: #359740;
+            }
+        }
+        h2{
+            font-family: 'Lexend';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 178.19%;
+            color: #70737C;
+        }
+    }
+}
