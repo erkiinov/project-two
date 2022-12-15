@@ -71,9 +71,9 @@ const grid = [
 
 
 function Page1() {
-  // const [api, setApi] = useState([{}])
+  const [api, setApi] = useState([{}])
   
-  // axios.get('https://fakestoreapi.com/products').then(res=>setApi(res.data))
+  axios.get('https://fakestoreapi.com/products').then(res=>setApi(res.data))
   
   return (
     <div className='page1-container'>
@@ -90,7 +90,7 @@ function Page1() {
             })}
         </div>
         
-        {/* <div className='cards-page-1'>
+        <div className='cards-page-1'>
             {
               api.map(({id, title, price, image, rating}) => {
                 if(id <= 6){
@@ -98,7 +98,7 @@ function Page1() {
                 }
               })
             }
-        </div> */}
+        </div>
         <div className='title-page-1'>
             <Title title='Our blog.'/>
             <Button value='Go to our blog' color='#359740' bgc='#ffffff' border='1' borderColor='#EFEFEF'/>

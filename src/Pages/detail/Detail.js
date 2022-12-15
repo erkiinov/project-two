@@ -9,6 +9,7 @@ function Detail() {
   axios.get(`https://fakestoreapi.com/products/${params.id}`).then(res=>setApi([res.data]))
   return (
     <div className='page1-container'>
+      {JSON.stringify(params)}
         {api.map(({id, title, price, description, category, image, rating}) => {
           return <CardDetail id={id} title={title} price={price} description={description} category={category} image={image} rating={rating} />
         })}
