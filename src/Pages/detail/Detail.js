@@ -5,8 +5,10 @@ import axios from 'axios'
 import ProductInfo from '../../components/product-info/ProductInfo'
 import Title from '../../components/title/Title'
 import './style.scss'
+import Button from '../../components/buttton/Button'
 
 import Card from '../../components/card/Card'
+import CustomerReview from '../../components/customer-review/CustomerReview'
 
 function Detail() {
   const params = useParams()
@@ -40,8 +42,14 @@ function Detail() {
 
 
         </div>
-
+        <div className='title-page-1'>
+            <Title title='Customer reviews.'/>
+            <Button value='Make review' color='#359740' bgc='#ffffff' border='1' borderColor='#EFEFEF'/>
+        </div>
+        <CustomerReview img='yes'/>
+        <CustomerReview  img='no'/>
         <Title title='Related products.'/>
+        
 
         <div className='RetaletPr'>
           {
@@ -52,6 +60,9 @@ function Detail() {
             })
           }
         </div>
+
+       
+     
 
     </div>
   )
